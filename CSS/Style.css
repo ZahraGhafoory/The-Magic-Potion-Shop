@@ -1,0 +1,70 @@
+body{
+background-attachment: fixed;
+    background-image: linear-gradient(40deg , rgba(6, 88, 72, 0.781), rgb(30, 2, 39) );
+}
+.intro{
+    width: 40rem;
+    z-index: +5;
+    position: absolute;
+    left: 40rem;
+    top: 12rem;
+}
+.title{
+    margin-left: 15px;
+    transform: matrix(1, 0, 0, 1, 20, 350);
+    border: 2px groove;
+    height: 7rem;
+    width: 10rem;
+    background: linear-gradient(40deg , rgba(196, 119, 17, 0.582), rgba(158, 13, 206, 0.822) );
+    transition: transform 7s linear;
+}
+.title p{
+    font-size: 12px;
+    
+}
+.about{
+    background-image: url(../images\ \(9\).jpg);
+    transform: matrix(1, 0.7, -0.7, 1, 50, -100);
+ 
+}
+.img, .about{ 
+    height: 13rem;
+    width: 17rem;
+    border: 2px groove;
+}
+.img{
+    background-size: 100% 100%;
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/9ad758ce-e9d5-42c1-b9bd-997ecf8ddb7d-profile_banner-480.png);
+    transform: matrix(1, 0.7, -0.7, 1, 335, -120);   
+}
+.img1{
+    height: 13rem;
+    width: 20rem;
+    border: 2px groove;
+    transform: matrix(1, 0.6, -0.7, 1, 625, -138);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfhm0_QkAHgkOU5CQTBMvDT4JTrYG7f6ZRw&s)
+}
+
+.img2{
+    position: absolute;
+    left: 69rem;
+    bottom: 100px;
+    transform: rotate(360deg);
+    border: 2px groove;
+    height: 14rem;
+    width: 10rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Flrr65n7qrkgF50ebYNDlEgYZl8uWOHhFw&s);
+    transition: transform 10s linear 1s;
+}
+.img3{
+    transform: matrix(1, 0.2, -0.5, 1, 800, -830);
+    border: 2px groove;
+    height: 10rem;
+    width: 9rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZBQAKB7ySp1ldrFbIxKer5sw7nYah6k0zA&s);
+
+}
+
+   /* transform: rotate(20deg); */
+   /* transform: translate(60px,200px); */
+   /* transform: skew(-30deg,20deg); */
